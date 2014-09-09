@@ -40,10 +40,8 @@ INSTALLED_APPS = (
     'phones_students',
     'courses',
     'grades_student',
-    'grades_type',
     'payments',
-    'payment_concepts',
-    'signatures_courses',
+    'signatures',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -78,7 +76,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 

@@ -6,7 +6,7 @@ class Student(models.Model):
 			('F','Femenino'),
 					)
 
-	id_student	= models.IntegerField()
+	id_student	= models.PositiveIntegerField()
 	first_name 	= models.CharField(max_length=255)
 	last_name 	= models.CharField(max_length=255)
 	address 	= models.CharField(max_length=255, blank=True)

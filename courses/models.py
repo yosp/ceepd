@@ -11,4 +11,4 @@ class Course(models.Model):
 	section 	= models.CharField(max_length=1, choices=sections_choices)
 	name		= models.CharField(max_length=100)
 	description	= models.CharField(max_length=100)
-	amount		= models.DecimalField(max_digits=18, decimal_places=2)
+	amount		= models.DecimalField(max_digits=8, decimal_places=2)
